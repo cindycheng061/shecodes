@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <header>
+    <p>We are open at <time>9:00</time></p>
+  </header>
+  <body>
+    <details>
+      <summary>Epcot Center</summary>
+      <p>
+        Epcot is a theme park at Walt Disney World Resort featuring exciting
+        attractions, international pavilions, award-winning fireworks and
+        seasonal special events.
+      </p>
+    </details>
+    <script>
+      document.write("Hello World!");
+    </script>
+    <label for="file">Downloading progress:</label>
+    <progress id="file" value="32" max="100">32%</progress>
+    <label for="file">Downloading progress</label>
+    <progress id="file" value="32" max="100%">32</progress>
+    <p>Here is a quote from WWF's website:</p>
+
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+      For 50 years, WWF has been protecting the future of nature. The world's
+      leading conservation organization, WWF works in 100 countries and is
+      supported by 1.2 million members in the United States and close to 5
+      million globally.
+    </blockquote>
+    <!-- Trigger the Modal -->
+    <img
+      id="myImg"
+      src="img_snow.jpg"
+      alt="Snow"
+      style="width: 100%; max-width: 300px"
+    />
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- The Close Button -->
+      <span class="close">&times;</span>
+
+      <!-- Modal Content (The Image) -->
+      <img class="modal-content" id="img01" />
+
+      <!-- Modal Caption (Image Text) -->
+      <div id="caption"></div>
+    </div>
+    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+      <path
+        fill="#FF0066"
+        d="M37.9,-32.8C54.2,-31.4,76.2,-24.4,84.2,-10.2C92.3,4,86.4,25.2,74.1,39.3C61.8,53.4,43.1,60.3,25.6,63.8C8.1,67.3,-8.2,67.4,-17.6,59.3C-27,51.2,-29.5,34.8,-30.6,22.6C-31.8,10.4,-31.7,2.4,-34.7,-10.6C-37.8,-23.7,-44,-41.7,-38.7,-45.1C-33.5,-48.4,-16.7,-36.9,-3,-33.3C10.8,-29.8,21.5,-34.1,37.9,-32.8Z"
+        transform="translate(100 100)"
+      />
+    </svg>
+    <style>
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        padding: 12px 16px;
+        z-index: 1;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+    </style>
+
+    <div class="dropdown">
+      <span>Mouse over me</span>
+      <div class="dropdown-content">
+        <p>Hello World!</p>
+      </div>
+    </div>
+  </body>
+</html>

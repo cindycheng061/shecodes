@@ -1,0 +1,157 @@
+/* Base HTML Styles */
+
+:root {
+  --pink: #f38fb1;
+  --yellow: #f4d040;
+  --green: #57d68d;
+  --blue: #5dade2;
+  --black: #111111;
+  --gray: #c3c3c3;
+}
+
+/* CSS Reset */
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--black);
+  scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* components */
+.btn-primary {
+  padding: 12px 16px;
+  display: inline-block;
+  background-color: white;
+  border-radius: 4px;
+  color: black;
+  text-decoration: none;
+}
+.btn-secondary {
+  padding: 12px 16px;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+  border: 2px solid white;
+}
+/* global style */
+label,
+input,
+select,
+textarea,
+button {
+  display: block;
+  width: 100%;
+}
+input,
+select,
+textarea,
+button {
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+/* header */
+.logo_480,
+header svg {
+  height: 50px;
+}
+
+header nav {
+  display: none;
+}
+.lesson_practice_mobileheader {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* hero */
+#hero {
+  background-color: var(--pink);
+  padding: 56px 16px;
+}
+
+#hero h1 {
+  font-size: 2rem;
+  margin-bottom: 24px;
+}
+#hero .hero-accent {
+  color: white;
+}
+/* courses */
+#courses article .icon {
+  height: 24px;
+  margin-bottom: 16px;
+}
+#courses .workshops {
+  background-color: var(--yellow);
+  padding: 56px 16px;
+}
+#courses .flash {
+  background-color: var(--green);
+  padding: 56px 16px;
+}
+#courses .plus {
+  background-color: var(--blue);
+  padding: 56px 16px;
+}
+#courses h2,
+p {
+  margin-bottom: 24px;
+}
+/* Contact Section */
+#contact {
+  padding: 56px 16px;
+}
+#contact h2 {
+  margin-bottom: 16px;
+}
+#contact button {
+  background-color: var(--pink);
+  border: none;
+}
+/* footer */
+footer {
+  padding: 16px;
+  text-align: center;
+}
